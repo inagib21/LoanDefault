@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/45716414/228026912-5111c67d-db6b-4aec-89ca-e28eb51c9e71.png)
+
 # Loan Default
 # Business Problem:
 Banks face significant losses when customers default on their loans, which in turn negatively impacts the economic growth of the country. In order to address this problem, a data scientist is needed to conduct an in-depth analysis of loan data to identify the factors that influence loan defaults. The goal of this project is to develop a marketing plan that will enable banks to contact borrowers and minimize losses. To achieve this goal, we will be utilizing various data science techniques, including logistic regression, decision tree, random forest, and Xgboost. This project will be considered a binary classification problem, where we aim to identify whether a client will default on their loan or not. The insights gained from this analysis will be used to inform decision-making and mitigate losses for banks and investors while promoting economic growth.
