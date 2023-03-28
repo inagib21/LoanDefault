@@ -107,7 +107,13 @@ Classification models used (e.g., logistic regression, decision trees, random fo
 Performance metrics used to evaluate the models (e.g., accuracy, precision, recall, F1 score, AUC-ROC)
 
 # Results: 
-![image](https://user-images.githubusercontent.com/45716414/228036679-5b3d9c0d-e217-4220-baa9-30ad683e8571.png)
+### Baseline Logistic Regression:
+![image](https://user-images.githubusercontent.com/45716414/228037848-df604e47-bfd4-4e1e-8e5c-dc95c04ea0f5.png)
+
+
+### XGBoost Hypertuned:
+![image](https://user-images.githubusercontent.com/45716414/228036896-a65b7cc9-6469-412a-9a05-a3e0a82d9a8e.png)
+
 
 # Limitations and Further Analysis
 Limitations:
