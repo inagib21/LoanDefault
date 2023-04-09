@@ -95,21 +95,20 @@ MachineHack has created a training dataset of 67,463 rows and 35 columns and a t
 `Time Since Last Delinquency` - the number of months since the borrower's last delinquency
 
 # Methods: 
-For this binary classification problem the two classes were labeled 0 = not in default and 1 = in default
+- For this binary classification problem the two classes were labeled 0 = not in default and 1 = in default
 
-Data preprocessing and cleaning techniques (feature scaling, encoding categorical variables)
+- Data preprocessing and cleaning techniques (feature scaling, encoding categorical variables)
 
-Data exploration and visualization methods
+- Data exploration and visualization methods
 
-Model selection and evaluation techniques (e.g., train/test split, cross-validation, hyperparameter tuning)
+- Model selection and evaluation techniques (e.g., train/test split, cross-validation, hyperparameter tuning)
 
-Classification models used (logistic regression, decision trees, random forest, XGBoost)
+- Classification models used (logistic regression, decision trees, random forest, XGBoost)
 
-Performance metrics used to evaluate the models (accuracy, precision, recall, F1 score, AUC-ROC)
+- Performance metrics used to evaluate the models (accuracy, precision, recall, F1 score, AUC-ROC)
 
 # Results: 
-Out of the four different  models that were tested Our hypertuned XGBoost modeel Had the best performance.  All of our models were better at predicting the majoority class of clients who were not in default and did poorly in predicting minortiy class of the clients who were in default.
-
+Out of the four different models that were tested, our hypertuned XGBoost model had the best performance. All models were better at predicting the majority class of clients who were not in default and did poorly in predicting the minority class of clients who were in default. The model performed reasonably well with an accuracy of 0.89, but it's important to note that the class imbalance between the two classes may be affecting its performance. To address our focus on type 1 errors, we decided to look at precision, which measures the proportion of predicted positives that are true positives. Our model had a precision score of 0.91 for defaults and 0.12 for non-defaults.
 
 ### Baseline Logistic Regression:
 ![image](https://user-images.githubusercontent.com/45716414/230751654-c4050c2b-c17e-486e-96dd-9a4883ecf109.png)
