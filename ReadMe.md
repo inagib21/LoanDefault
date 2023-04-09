@@ -160,14 +160,15 @@ In this confusion matrix, the model correctly identified 16,878 non-defaults as 
 ### XGBoost Hypertuned:
 ![image](https://user-images.githubusercontent.com/45716414/230751543-d9f8ce5d-5431-4914-b72a-8f86c0a37ede.png)
 
-               precision    recall  f1-score   support
+             precision    recall  f1-score   support
 
-           0       0.91      0.92      0.91     18380
-           1       0.11      0.10      0.11      1859
+           0       0.91      0.97      0.94     18380
+           1       0.12      0.04      0.05      1859
 
-    accuracy                           0.84     20239
-    macro avg      0.51      0.51      0.51     20239
-    weighted avg   0.84      0.84      0.84     20239
+    accuracy                           0.89     20239
+    macro avg      0.51      0.50      0.50     20239
+    weighted avg   0.84      0.89      0.86     20239
+
 
 
 The model correctly identified 17,881 non-defaults and 66 defaults. However, it incorrectly identified 1,793 defaults as non-defaults and 499 non-defaults as defaults. The true positive rate (TPR) is 0.91, indicating that the model correctly identified 91% of non-defaults. The true negative rate (TNR) is 0.12, indicating that the model correctly identified only 12% of defaults.
