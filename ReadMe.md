@@ -113,6 +113,7 @@ Out of the four different  models that were tested Our hypertuned XGBoost modeel
 
 ### Baseline Logistic Regression:
 ![image](https://user-images.githubusercontent.com/45716414/230751654-c4050c2b-c17e-486e-96dd-9a4883ecf109.png)
+            
               precision    recall  f1-score   support
 
            0       0.91      0.57      0.70     18380
@@ -128,6 +129,7 @@ This model correctly identified 10,004 non-defaults as non-defaults and 856 defa
 
 ### Decision Tree Hypetuned:
 ![image](https://user-images.githubusercontent.com/45716414/230751341-72e049a5-ff9d-4b89-92eb-262b0374dc8f.png)
+              
               precision    recall  f1-score   support
 
            0       0.91      0.68      0.78     18380
@@ -142,7 +144,8 @@ In this model evaluation, there were 12,462 true positives (actual non-defaults 
 
 ### Random Forest Hypertuned:
 ![image](https://user-images.githubusercontent.com/45716414/230751363-b42e76a3-acf7-47b8-a248-e80c6bdaa4da.png)
- precision    recall  f1-score   support
+ 
+              precision    recall  f1-score   support
 
            0       0.91      0.92      0.91     18380
            1       0.11      0.10      0.11      1859
@@ -156,7 +159,8 @@ In this confusion matrix, the model correctly identified 16,878 non-defaults as 
 
 ### XGBoost Hypertuned:
 ![image](https://user-images.githubusercontent.com/45716414/230751543-d9f8ce5d-5431-4914-b72a-8f86c0a37ede.png)
- precision    recall  f1-score   support
+
+               precision    recall  f1-score   support
 
            0       0.91      0.92      0.91     18380
            1       0.11      0.10      0.11      1859
