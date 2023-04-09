@@ -120,8 +120,8 @@ Out of the four different  models that were tested Our hypertuned XGBoost modeel
            1       0.10      0.46      0.16      1859
 
     accuracy                           0.56     20239
-   macro avg       0.51      0.52      0.43     20239
-weighted avg       0.84      0.56      0.65     20239
+    macro avg      0.51      0.52      0.43     20239
+    weighted avg   0.84      0.56      0.65     20239
 
 
 This model correctly identified 10,004 non-defaults as non-defaults and 856 defaults as defaults, giving a true positive and true negative rate. However, it also misclassified 1003 actual defaults as non-defaults, resulting in a false negative, and misclassified 7897 actual non-defaults as defaults, resulting in a high false positive rate.
@@ -135,9 +135,9 @@ This model correctly identified 10,004 non-defaults as non-defaults and 856 defa
            0       0.91      0.68      0.78     18380
            1       0.10      0.34      0.15      1859
 
-    accuracy                           0.65     20239
-   macro avg       0.50      0.51      0.46     20239
-weighted avg       0.84      0.65      0.72     20239
+    accuracy                            0.65     20239
+    macro avg       0.50      0.51      0.46     20239
+    weighted avg    0.84      0.65      0.72     20239
 
 
 In this model evaluation, there were 12,462 true positives (actual non-defaults correctly identified as non-defaults) and 625 true negatives (actual defaults correctly identified as defaults). On the other hand, there were 1,234 false negatives (actual defaults incorrectly identified as non-defaults) and 5,918 false positives (actual non-defaults incorrectly identified as defaults).
@@ -150,9 +150,9 @@ In this model evaluation, there were 12,462 true positives (actual non-defaults 
            0       0.91      0.92      0.91     18380
            1       0.11      0.10      0.11      1859
 
-    accuracy                           0.84     20239
-   macro avg       0.51      0.51      0.51     20239
-weighted avg       0.84      0.84      0.84     20239
+    accuracy                            0.84     20239
+    macro avg       0.51      0.51      0.51     20239
+    weighted avg    0.84      0.84      0.84     20239
 
 
 In this confusion matrix, the model correctly identified 16,878 non-defaults as non-defaults (true positives) and 194 defaults as defaults (true negatives). However, it incorrectly classified 1665 defaults as non-defaults (false negatives) and 1502 non-defaults as defaults (false positives)
@@ -166,8 +166,8 @@ In this confusion matrix, the model correctly identified 16,878 non-defaults as 
            1       0.11      0.10      0.11      1859
 
     accuracy                           0.84     20239
-   macro avg       0.51      0.51      0.51     20239
-weighted avg       0.84      0.84      0.84     20239
+    macro avg      0.51      0.51      0.51     20239
+    weighted avg   0.84      0.84      0.84     20239
 
 
 The model correctly identified 17,881 non-defaults and 66 defaults. However, it incorrectly identified 1,793 defaults as non-defaults and 499 non-defaults as defaults. The true positive rate (TPR) is 0.91, indicating that the model correctly identified 91% of non-defaults. The true negative rate (TNR) is 0.12, indicating that the model correctly identified only 12% of defaults.
