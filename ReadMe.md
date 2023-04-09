@@ -176,12 +176,12 @@ The model correctly identified 17,881 non-defaults and 66 defaults. However, it 
 ![image](https://user-images.githubusercontent.com/45716414/230751744-0d9f89b8-f859-4a3e-9d0d-607b7d2bd91b.png)
 
 # Recommendations Based on Feature importance :
-- Targeted advertising for joint application loans: Since joint applications were found to be a significant feature in your model, consider creating targeted ads that promote the benefits of joint applications, such as higher loan amounts, increased chances of approval, and lower interest rates.
+- Targeted advertising for joint application loans: Since joint applications were found to be a significant feature in our model, consider creating targeted ads that promote the benefits of joint applications, such as higher loan amounts, increased chances of approval, and lower interest rates.
 
 - Leverage the six-month inquiry feature: Since the number of inquiries made in the six months prior to the loan application was significant, consider creating marketing content that educates potential customers on how to manage their credit inquiries and how to improve their credit score. This can position your company as a helpful resource and build trust with potential customers.
 
 
-- Highlight loan titles that perform well: Loan title was also a significant feature in your model. Consider featuring loan titles that have performed well in the past in your marketing campaigns, highlighting the benefits and key features of those loans.
+- Highlight loan titles that perform well: Loan title was also a significant feature in our model. Consider featuring loan titles that have performed well in the past such as Credit Card Refinancing, Debt Consolidation, and Bills.  in our marketing campaigns, highlighting the benefits and key features of those loans.
 
 
 
