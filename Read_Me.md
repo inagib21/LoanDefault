@@ -108,11 +108,37 @@ Performance metrics used to evaluate the models (e.g., accuracy, precision, reca
 
 # Results: 
 ### Baseline Logistic Regression:
-![image](https://user-images.githubusercontent.com/45716414/228037848-df604e47-bfd4-4e1e-8e5c-dc95c04ea0f5.png)
+![image](https://user-images.githubusercontent.com/45716414/230751654-c4050c2b-c17e-486e-96dd-9a4883ecf109.png)
 
+This model correctly identified 10,004 non-defaults as non-defaults and 856 defaults as defaults, giving a true positive and true negative rate. However, it also misclassified 1003 actual defaults as non-defaults, resulting in a false negative, and misclassified 7897 actual non-defaults as defaults, resulting in a high false positive rate.
+
+
+### Decision Tree Hypetuned:
+![image](https://user-images.githubusercontent.com/45716414/230751341-72e049a5-ff9d-4b89-92eb-262b0374dc8f.png)
+
+In this model evaluation, there were 12,462 true positives (actual non-defaults correctly identified as non-defaults) and 625 true negatives (actual defaults correctly identified as defaults). On the other hand, there were 1,234 false negatives (actual defaults incorrectly identified as non-defaults) and 5,918 false positives (actual non-defaults incorrectly identified as defaults).
+
+### Random Forest Hypertuned:
+![image](https://user-images.githubusercontent.com/45716414/230751363-b42e76a3-acf7-47b8-a248-e80c6bdaa4da.png)
+
+In this confusion matrix, the model correctly identified 16,878 non-defaults as non-defaults (true positives) and 194 defaults as defaults (true negatives). However, it incorrectly classified 1665 defaults as non-defaults (false negatives) and 1502 non-defaults as defaults (false positives)
 
 ### XGBoost Hypertuned:
-![image](https://user-images.githubusercontent.com/45716414/228036896-a65b7cc9-6469-412a-9a05-a3e0a82d9a8e.png)
+![image](https://user-images.githubusercontent.com/45716414/230751543-d9f8ce5d-5431-4914-b72a-8f86c0a37ede.png)
+
+The model correctly identified 17,881 non-defaults and 66 defaults. However, it incorrectly identified 1,793 defaults as non-defaults and 499 non-defaults as defaults. The true positive rate (TPR) is 0.91, indicating that the model correctly identified 91% of non-defaults. The true negative rate (TNR) is 0.12, indicating that the model correctly identified only 12% of defaults.
+
+# Feature Importance On XGB Model:
+![image](https://user-images.githubusercontent.com/45716414/230751744-0d9f89b8-f859-4a3e-9d0d-607b7d2bd91b.png)
+
+# Recomendations Based on Feature importance :
+- Targeted advertising for joint application loans: Since joint applications were found to be a significant feature in your model, consider creating targeted ads that promote the benefits of joint applications, such as higher loan amounts, increased chances of approval, and lower interest rates.
+
+- Leverage the six-month inquiry feature: Since the number of inquiries made in the six months prior to the loan application was significant, consider creating marketing content that educates potential customers on how to manage their credit inquiries and how to improve their credit score. This can position your company as a helpful resource and build trust with potential customers.
+
+
+- Highlight loan titles that perform well: Loan title was also a significant feature in your model. Consider featuring loan titles that have performed well in the past in your marketing campaigns, highlighting the benefits and key features of those loans.
+
 
 
 # Limitations and Further Analysis
