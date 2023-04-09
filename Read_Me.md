@@ -94,7 +94,8 @@ MachineHack has created a training dataset of 67,463 rows and 35 columns and a t
 
 `Time Since Last Delinquency` - the number of months since the borrower's last delinquency
 
-# Methods: For this binary classification problem the two classes were labeled 0 = not in default and 1 = in default
+# Methods: 
+For this binary classification problem the two classes were labeled 0 = not in default and 1 = in default
 
 Data preprocessing and cleaning techniques (feature scaling, encoding categorical variables)
 
@@ -102,11 +103,14 @@ Data exploration and visualization methods
 
 Model selection and evaluation techniques (e.g., train/test split, cross-validation, hyperparameter tuning)
 
-Classification models used (e.g., logistic regression, decision trees, random forest, XGBoost)
+Classification models used (logistic regression, decision trees, random forest, XGBoost)
 
-Performance metrics used to evaluate the models (e.g., accuracy, precision, recall, F1 score, AUC-ROC)
+Performance metrics used to evaluate the models (accuracy, precision, recall, F1 score, AUC-ROC)
 
 # Results: 
+Out of the models that we used. The model that we chose to go with was the hypertuned XGBoost model. We chose this model
+
+
 ### Baseline Logistic Regression:
 ![image](https://user-images.githubusercontent.com/45716414/230751654-c4050c2b-c17e-486e-96dd-9a4883ecf109.png)
 
