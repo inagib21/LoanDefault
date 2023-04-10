@@ -213,9 +213,11 @@ Further analysis:
 
 Please check out my [Notebook](https://github.com/inagib21/LoanDefault/blob/main/Notebook.ipynb) and [Presentation](https://github.com/inagib21/LoanDefault/blob/main/Presentation_.pdf)
 
-Navigating the Repository
-README.md ---> Document for reviewers of the project
+## Navigating the Repository
+ReadME.md ---> Document for reviewers of the project
 
-Predicting Loan Default with ML.ipynb ---> Modeling and methods explaination in Jupyter Notebook
+Notebook.ipynb ---> Modeling and methods explaination in Jupyter Notebook
 
 Presentation.pdf ---> PDF of presentation slides
+
+Train.csv ---> Data used in CSV format
