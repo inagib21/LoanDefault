@@ -211,7 +211,7 @@ Further analysis:
 
 # For More Information:
 
-Please check out my [Notebook](https://github.com/inagib21/LoanDefault/blob/main/Notebook.ipynb) and [Presentation](https://github.com/inagib21/LoanDefault/blob/main/Presentation_.pdf)
+Please check out my [Notebook](https://github.com/inagib21/LoanDefault/blob/main/Notebook.ipynb) and [Presentation](https://github.com/inagib21/LoanDefault/blob/main/Presentation.pdf)
 
 ## Navigating the Repository
 ReadME.md ---> Document for reviewers of the project
