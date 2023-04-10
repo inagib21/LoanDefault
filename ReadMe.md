@@ -209,3 +209,6 @@ Further analysis:
 
 * Investigating the reasons behind loan defaults and developing targeted interventions to reduce default rates. For example, offering financial education or counseling to high-risk borrowers could improve their financial literacy and ability to repay loans.
 
+# For More Information:
+
+Please check out my [Notebook](https://github.com/inagib21/LoanDefault/blob/main/Notebook.ipynb) and [Presentation](https://github.com/inagib21/LoanDefault/blob/main/Presentation_.pdf)
