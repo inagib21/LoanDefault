@@ -11,11 +11,9 @@ Banks face significant losses when customers default on their loans, which in tu
 Will our clients default on their loan or not?
 
 
-In the context of developing a marketing plan to minimize losses for the bank, the focus should be on reducing the number of false positives or Type 1 errors.
+In the context of marketing, the focus is typically on maximizing the number of true positives (i.e., correctly identifying potential customers who are likely to be interested in the product or service being offered) and minimizing the number of false negatives (i.e., failing to identify potential customers who would be interested in the product or service). In other words, the goal is to identify the most promising leads and avoid missing out on potential customers.
 
-This is because false positives occur when the model predicts that a borrower will default on their loan when they actually will not. If the bank were to contact all borrowers who were predicted to default (i.e., all positive instances), including those who will not actually default, it would result in unnecessary costs for the bank and may also damage the bank's relationship with borrowers who are able to repay their loans.
-
-Therefore, in order to minimize losses, it is important to focus on reducing the number of false positives or Type 1 errors. This can be achieved by improving the precision of the loan default prediction model, so that the model only identifies borrowers who are highly likely to default. By doing so, the bank can focus its resources on contacting the borrowers who are most likely to default, while minimizing the cost of unnecessary contact with borrowers who will not default.
+To achieve this goal, marketers typically use metrics such as precision, recall, F1-score, and AUC-ROC, which provide a more nuanced measure of the model's performance in identifying the target audience. These metrics can help marketers identify the most promising segments of the market and tailor their marketing messages accordingly, to maximize the chances of converting potential customers into actual customers.
 
 # Data Understanding:
 https://www.kaggle.com/datasets/hemanthsai7/loandefault?resource=download
