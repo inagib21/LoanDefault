@@ -212,6 +212,8 @@ Further analysis:
 Please check out my [Notebook](https://github.com/inagib21/LoanDefault/blob/main/Notebook.ipynb) and [Presentation](https://github.com/inagib21/LoanDefault/blob/main/Presentation.pdf)
 
 ## Navigating the Repository
+FeatureImportance.ipynb ---> Vizualizations of Joint Applications feature notebook
+
 ReadME.md ---> Document for reviewers of the project
 
 Notebook.ipynb ---> Modeling and methods explaination in Jupyter Notebook
